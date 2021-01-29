@@ -1,8 +1,13 @@
+import Navbar from './Navbar';
+import Home from './Home';
+import './App.css';
+
 const App = function App() {
   return (
     <div className="App">
+    <Navbar />
       <div className="content">
-        <h1>React blog initial</h1>
+        <Home />
       </div>
     </div>
   );
