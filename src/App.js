@@ -5,7 +5,7 @@ import Home from './Home';
 const App = function App() {
   return (
     <div className="App">
-    <Navbar />
+     <Navbar />
       <div className="content">
         <Home />
       </div>
